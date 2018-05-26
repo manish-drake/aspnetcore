@@ -1,0 +1,75 @@
+﻿<h1>{{title}}</h1>
+<h3>Employee</h3>
+<hr />
+
+<form [formGroup]="employeeForm" (ngSubmit)="save()" #formDir="ngForm" novalidate>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12">First Name</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="firstname">
+        </div>
+        <span class="text-danger" *ngIf="firstname.invalid && formDir.submitted">
+            Name is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12">Last Name</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="lastname">
+        </div>
+        <span class="text-danger" *ngIf="lastname.invalid && formDir.submitted">
+            Last Name is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12">Number</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="number">
+        </div>
+        <span class="text-danger" *ngIf="number.invalid && formDir.submitted">
+            Number is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12">Address</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="address">
+        </div>
+        <span class="text-danger" *ngIf="address.invalid && formDir.submitted">
+            Address is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12">Email</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="email">
+        </div>
+        <span class="text-danger" *ngIf="email.invalid && formDir.submitted">
+            Address is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12" for="statename">State Name</label>
+        <div class="col-md-4">
+            <select class="form-control" data-val="true" formControlName="statename">
+                <option value="">--Select State--</option>
+                <option *ngFor="let state of stateList" value={{state.stateName}}>
+                    {{state.stateName}}
+                </option>
+            </select>
+        </div>
+        <span class="text-danger" *ngIf="statename.invalid && formDir.submitted">
+            State is required
+        </span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-default">Save</button>
+        <button class="btn" (click)="cancel()">Cancel</button>
+    </div>
+</form>   
