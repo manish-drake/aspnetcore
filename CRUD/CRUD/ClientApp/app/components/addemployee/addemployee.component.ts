@@ -33,7 +33,7 @@ export class createemployee implements OnInit {
             number: ['', [Validators.required]],
             address: ['', [Validators.required]],
             email: ['', [Validators.required]],
-            stateName: ['', [Validators.required]]           
+            stateName: ['', [Validators.required]]          
 
         })
     }
@@ -50,7 +50,6 @@ export class createemployee implements OnInit {
                 .subscribe(resp => this.employeeForm.setValue(resp)
                     , error => this.errorMessage = error);
         }
-
     }
 
     save() {
@@ -74,7 +73,7 @@ export class createemployee implements OnInit {
         }
     }
 
-    cancel() {
+    cancel(){
         this._router.navigate(['/fetch-employee']);
     }
 

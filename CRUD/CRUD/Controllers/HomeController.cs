@@ -12,7 +12,7 @@ namespace TestApplication.Controllers
         public IActionResult Index()
         {
             return View();
-        }
+        }       
 
         public IActionResult Error()
         {
