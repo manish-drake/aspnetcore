@@ -10,6 +10,8 @@ import { HomeComponent } from './components/home/home.component';
 import { FetchEmployeeComponent } from './components/fetchemployee/fetchemployee.component';
 import { createemployee } from './components/addemployee/AddEmployee.component';
 import { htmlpage } from './components/addemployee/htmlpage.component';
+import { login } from './components/login/login.component';
+
 
 @NgModule({
     declarations: [
@@ -19,6 +21,7 @@ import { htmlpage } from './components/addemployee/htmlpage.component';
         FetchEmployeeComponent,
         createemployee,
         htmlpage,
+        login,
     ],
     imports: [
         CommonModule,
@@ -32,6 +35,7 @@ import { htmlpage } from './components/addemployee/htmlpage.component';
             { path: 'register-employee', component: createemployee },
             { path: 'employee/edit/:id', component: createemployee },
             { path: 'htmlpage', component: htmlpage },
+            { path: 'login', component: login },
             { path: '**', redirectTo: 'home' }
         ])
     ],
