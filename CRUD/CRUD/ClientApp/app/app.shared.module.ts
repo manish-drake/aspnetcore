@@ -9,7 +9,7 @@ import { AppComponent } from './components/app/app.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchEmployeeComponent } from './components/fetchemployee/fetchemployee.component';
 import { createemployee } from './components/addemployee/AddEmployee.component';
-import { htmlpage } from './components/addemployee/htmlpage.component';
+import { htmlpage } from './components/htmlpage/htmlpage.component';
 import { login } from './components/login/login.component';
 
 
@@ -29,14 +29,14 @@ import { login } from './components/login/login.component';
         FormsModule,
         ReactiveFormsModule,
         RouterModule.forRoot([
-            { path: '', redirectTo: 'home', pathMatch: 'full' },
+            { path: '', redirectTo: 'login', pathMatch: 'full' },
             { path: 'home', component: HomeComponent },
             { path: 'fetch-employee', component: FetchEmployeeComponent },
             { path: 'register-employee', component: createemployee },
             { path: 'employee/edit/:id', component: createemployee },
             { path: 'menu', component: htmlpage },
             { path: 'login', component: login },
-            { path: '**', redirectTo: 'home' }
+            { path: '**', redirectTo: 'login' }
         ])
     ],
     providers: [EmployeeService]

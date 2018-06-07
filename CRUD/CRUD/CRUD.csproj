@@ -32,7 +32,7 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\components\addemployee\addemployee.component.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\addemployee\htmlpage.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\htmlpage\htmlpage.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\fetchemployee\fetchemployee.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\login\login.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\Services\empservice.service.ts" />
