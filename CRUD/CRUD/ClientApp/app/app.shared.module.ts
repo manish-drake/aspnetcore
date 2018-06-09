@@ -11,6 +11,7 @@ import { FetchEmployeeComponent } from './components/fetchemployee/fetchemployee
 import { createemployee } from './components/addemployee/AddEmployee.component';
 import { htmlpage } from './components/htmlpage/htmlpage.component';
 import { login } from './components/login/login.component';
+import { assessment } from './components/htmlpage/assessment/assessment.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { login } from './components/login/login.component';
         createemployee,
         htmlpage,
         login,
+        assessment,
     ],
     imports: [
         CommonModule,
@@ -35,8 +37,9 @@ import { login } from './components/login/login.component';
             { path: 'register-employee', component: createemployee },
             { path: 'employee/edit/:id', component: createemployee },
             { path: 'menu', component: htmlpage },
+            { path: 'menu/assessment', component: assessment },
             { path: 'login', component: login },
-            { path: '**', redirectTo: 'login' }
+            { path: '**', redirectTo: 'login' },          
         ])
     ],
     providers: [EmployeeService]
