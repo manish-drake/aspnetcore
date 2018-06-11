@@ -5,25 +5,26 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './components/app/app.component';
-//import { NavMenuComponent } from './components/navmenu/navmenu.component';
+import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchEmployeeComponent } from './components/fetchemployee/fetchemployee.component';
 import { createemployee } from './components/addemployee/AddEmployee.component';
 import { htmlpage } from './components/htmlpage/htmlpage.component';
 import { login } from './components/login/login.component';
-import { assessment } from './components/htmlpage/assessment/assessment.component';
-
+import { assessment } from './components/assessment/assessment.component';
+import { invoice } from './components/invoice/invoice.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-      //  NavMenuComponent,
+        NavMenuComponent,
         HomeComponent,
         FetchEmployeeComponent,
         createemployee,
         htmlpage,
         login,
         assessment,
+        invoice,
     ],
     imports: [
         CommonModule,
@@ -38,6 +39,7 @@ import { assessment } from './components/htmlpage/assessment/assessment.componen
             { path: 'employee/edit/:id', component: createemployee },
             { path: 'menu', component: htmlpage },
             { path: 'menu/assessment', component: assessment },
+            { path: 'menu/invoice', component: invoice },
             { path: 'login', component: login },
             { path: '**', redirectTo: 'login' },          
         ])

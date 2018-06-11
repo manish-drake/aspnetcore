@@ -9,9 +9,11 @@ import 'rxjs/add/observable/throw';
 @Injectable()
 export class EmployeeService {
     myAppUrl: string = "";
+    visible: boolean;
 
     constructor(private _http: Http, @Inject('BASE_URL') baseUrl: string) {
         this.myAppUrl = baseUrl;
+        this.visible = false;
     }
   
     getStateList() {
@@ -56,6 +58,14 @@ export class EmployeeService {
     errorHandler(error: Response) {
         console.log(error);
         return Observable.throw(error);
-    }  
+    }   
+
+    hide() { this.visible = false; }
+
+    show() { this.visible = true; }
+
+    toggle() { this.visible = !this.visible; }
+
+    doSomethingElseUseful() { }
 
 }
