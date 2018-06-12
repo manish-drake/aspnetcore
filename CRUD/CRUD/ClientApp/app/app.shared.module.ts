@@ -13,6 +13,8 @@ import { htmlpage } from './components/htmlpage/htmlpage.component';
 import { login } from './components/login/login.component';
 import { assessment } from './components/assessment/assessment.component';
 import { invoice } from './components/invoice/invoice.component';
+import { reciepts } from './components/reciepts/reciepts.component';
+import { addassessment } from './components/addassessment/addassessment.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +26,9 @@ import { invoice } from './components/invoice/invoice.component';
         htmlpage,
         login,
         assessment,
+        addassessment,
         invoice,
+        reciepts
     ],
     imports: [
         CommonModule,
@@ -39,7 +43,9 @@ import { invoice } from './components/invoice/invoice.component';
             { path: 'employee/edit/:id', component: createemployee },
             { path: 'menu', component: htmlpage },
             { path: 'menu/assessment', component: assessment },
+            { path: 'menu/assessment/createassessment', component: addassessment },
             { path: 'menu/invoice', component: invoice },
+            { path: 'menu/reciepts', component: reciepts },
             { path: 'login', component: login },
             { path: '**', redirectTo: 'login' },          
         ])

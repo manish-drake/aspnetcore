@@ -26,10 +26,12 @@
   <ItemGroup>
     <None Remove="ClientApp\app\components\addemployee\addemployee.component.ts" />
     <None Remove="ClientApp\app\components\addemployee\htmlpage.component.ts" />
+    <None Remove="ClientApp\app\components\assessment\addassessment.component.ts" />
     <None Remove="ClientApp\app\components\assessment\assessment.component.ts" />
     <None Remove="ClientApp\app\components\fetchemployee\fetchemployee.component.ts" />
     <None Remove="ClientApp\app\components\Invoice\Invoice.component.ts" />
     <None Remove="ClientApp\app\components\login\login.component.ts" />
+    <None Remove="ClientApp\app\components\reciepts\reciepts.component.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,11 +40,13 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\components\addemployee\addemployee.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addassessment\addassessment.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\assessment\assessment.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\htmlpage\htmlpage.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\fetchemployee\fetchemployee.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\Invoice\Invoice.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\login\login.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\reciepts\reciepts.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\Services\empservice.service.ts" />
   </ItemGroup>
 
