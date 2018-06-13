@@ -13,8 +13,10 @@ import { htmlpage } from './components/htmlpage/htmlpage.component';
 import { login } from './components/login/login.component';
 import { assessment } from './components/assessment/assessment.component';
 import { invoice } from './components/invoice/invoice.component';
-import { reciepts } from './components/reciepts/reciepts.component';
+import { receipts } from './components/receipts/receipts.component';
 import { addassessment } from './components/addassessment/addassessment.component';
+import { addinvoice } from './components/addinvoice/addinvoice.component';
+import { addreceipt } from './components/addreceipt/addreceipt.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +30,9 @@ import { addassessment } from './components/addassessment/addassessment.componen
         assessment,
         addassessment,
         invoice,
-        reciepts
+        addinvoice,
+        receipts,
+        addreceipt
     ],
     imports: [
         CommonModule,
@@ -45,7 +49,9 @@ import { addassessment } from './components/addassessment/addassessment.componen
             { path: 'menu/assessment', component: assessment },
             { path: 'menu/assessment/createassessment', component: addassessment },
             { path: 'menu/invoice', component: invoice },
-            { path: 'menu/reciepts', component: reciepts },
+            { path: 'menu/invoice/createinvoice', component: addinvoice },
+            { path: 'menu/receipts', component: receipts },
+            { path: 'menu/receipts/createreceipt', component: addreceipt },
             { path: 'login', component: login },
             { path: '**', redirectTo: 'login' },          
         ])
