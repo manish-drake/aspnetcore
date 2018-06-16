@@ -17,11 +17,17 @@ import { receipts } from './components/receipts/receipts.component';
 import { addassessment } from './components/addassessment/addassessment.component';
 import { addinvoice } from './components/addinvoice/addinvoice.component';
 import { addreceipt } from './components/addreceipt/addreceipt.component';
+import { AdminNavMenuComponent } from './components/adminnavmenu/adminnavmenu.component';
+import { assessmenttype } from './components/AssessmentType/assessmenttype.component';
+import { insurancecompany } from './components/insurancecompany/insurancecompany.component';
+import { bankaccount } from './components/BankAccount/bankaccount.component';
+
 
 @NgModule({
     declarations: [
         AppComponent,
         NavMenuComponent,
+        AdminNavMenuComponent,
         HomeComponent,
         FetchEmployeeComponent,
         createemployee,
@@ -32,7 +38,10 @@ import { addreceipt } from './components/addreceipt/addreceipt.component';
         invoice,
         addinvoice,
         receipts,
-        addreceipt
+        addreceipt,
+        assessmenttype,
+        insurancecompany,
+        bankaccount
     ],
     imports: [
         CommonModule,
@@ -52,6 +61,9 @@ import { addreceipt } from './components/addreceipt/addreceipt.component';
             { path: 'menu/invoice/createinvoice', component: addinvoice },
             { path: 'menu/receipts', component: receipts },
             { path: 'menu/receipts/createreceipt', component: addreceipt },
+            { path: 'admin/assessmenttype', component: assessmenttype },
+            { path: 'admin/insurancecompany', component: insurancecompany },
+            { path: 'admin/bankaccount', component: bankaccount },
             { path: 'login', component: login },
             { path: '**', redirectTo: 'login' },          
         ])

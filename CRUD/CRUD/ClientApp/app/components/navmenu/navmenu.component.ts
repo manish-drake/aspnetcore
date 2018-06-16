@@ -6,7 +6,5 @@ import { EmployeeService } from '../../services/empservice.service';
     styleUrls: ['./navmenu.component.css']
 })
 export class NavMenuComponent {
-
     constructor(public nav: EmployeeService) { }
-
 }
