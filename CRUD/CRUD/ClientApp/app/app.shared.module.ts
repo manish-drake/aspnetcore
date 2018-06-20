@@ -21,6 +21,28 @@ import { AdminNavMenuComponent } from './components/adminnavmenu/adminnavmenu.co
 import { assessmenttype } from './components/AssessmentType/assessmenttype.component';
 import { insurancecompany } from './components/insurancecompany/insurancecompany.component';
 import { bankaccount } from './components/BankAccount/bankaccount.component';
+import { addassessmenttype } from './components/addassessmenttype/addassessmenttype.component';
+import { addinsurancecompany } from './components/addinsurancecompany/addinsurancecompany.component';
+import { addbankaccount } from './components/addbankaccount/addbankaccount.component';
+import { licensetype } from './components/licensetype/licensetype.component';
+import { addlicensetype } from './components/addlicensetype/addlicensetype.component';
+import { model } from './components/model/model.component';
+import { addmodel } from './components/addmodel/addmodel.component';
+import { officetype } from './components/officetype/officetype.component';
+import { addofficetype } from './components/addofficetype/addofficetype.component';
+import { painttype } from './components/painttype/painttype.component';
+import { addpainttype } from './components/addpainttype/addpainttype.component';
+import { modelversion } from './components/modelversion/modelversion.component';
+import { addmodelversion } from './components/addmodelversion/addmodelversion.component';
+import { vehiclemake } from './components/vehiclemake/vehiclemake.component';
+import { addvehiclemake } from './components/addvehiclemake/addvehiclemake.component';
+import { workshop } from './components/workshop/workshop.component';
+import { addworkshop } from './components/addworkshop/addworkshop.component';
+import { addsurveyorfeeschedules } from './components/addsurveyorfeeschedules/addsurveyorfeeschedules.component';
+import { surveyorfeeschedules } from './components/surveyorfeeschedules/surveyorfeeschedules.component';
+import { addoffice } from './components/addoffice/addoffice.component';
+import { office } from './components/office/office.component';
+
 
 
 @NgModule({
@@ -41,7 +63,28 @@ import { bankaccount } from './components/BankAccount/bankaccount.component';
         addreceipt,
         assessmenttype,
         insurancecompany,
-        bankaccount
+        bankaccount,
+        addassessmenttype,
+        addinsurancecompany,
+        addbankaccount,
+        licensetype,
+        addlicensetype,
+        model,
+        addmodel,
+        officetype,
+        addofficetype,
+        painttype,
+        addpainttype,
+        modelversion,
+        addmodelversion,
+        vehiclemake,
+        addvehiclemake,
+        workshop,
+        addworkshop,
+        surveyorfeeschedules,
+        addsurveyorfeeschedules,
+        addoffice,
+        office
     ],
     imports: [
         CommonModule,
@@ -62,8 +105,29 @@ import { bankaccount } from './components/BankAccount/bankaccount.component';
             { path: 'menu/receipts', component: receipts },
             { path: 'menu/receipts/createreceipt', component: addreceipt },
             { path: 'admin/assessmenttype', component: assessmenttype },
+            { path: 'admin/assessmenttype/createassessmenttype', component: addassessmenttype },
             { path: 'admin/insurancecompany', component: insurancecompany },
+            { path: 'admin/insurancecompany/createinsurancecompany', component: addinsurancecompany },
             { path: 'admin/bankaccount', component: bankaccount },
+            { path: 'admin/bankaccount/createbankaccount', component: addbankaccount },
+            { path: 'admin/licensetype', component: licensetype },
+            { path: 'admin/licensetype/createlicensetype', component: addlicensetype },
+            { path: 'admin/model', component: model },
+            { path: 'admin/model/createmodel', component: addmodel },
+            { path: 'admin/officetype', component: officetype },
+            { path: 'admin/officetype/createofficetype', component: addofficetype },
+            { path: 'admin/painttype', component: painttype },
+            { path: 'admin/painttype/createpainttype', component: addpainttype },
+            { path: 'admin/modelversion', component: modelversion },
+            { path: 'admin/modelversion/createmodelversion', component: addmodelversion },
+            { path: 'admin/vehiclemake', component: vehiclemake },
+            { path: 'admin/vehiclemake/createvehiclemake', component: addvehiclemake },
+            { path: 'admin/workshop', component: workshop },
+            { path: 'admin/workshop/createworkshop', component: addworkshop },
+            { path: 'admin/surveyorfeeschedules', component: surveyorfeeschedules },
+            { path: 'admin/surveyorfeeschedules/createsurveyorfeeschedules', component: addsurveyorfeeschedules },
+            { path: 'admin/office', component: office },
+            { path: 'admin/office/createoffice', component: addoffice },
             { path: 'login', component: login },
             { path: '**', redirectTo: 'login' },          
         ])

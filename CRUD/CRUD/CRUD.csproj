@@ -24,11 +24,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\app\components\addassessmenttype\addassessmenttype.component.ts" />
+    <None Remove="ClientApp\app\components\addbankaccount\addbankaccount.component.ts" />
     <None Remove="ClientApp\app\components\addemployee\addemployee.component.ts" />
     <None Remove="ClientApp\app\components\addemployee\htmlpage.component.ts" />
+    <None Remove="ClientApp\app\components\addinsurancecompany\addinsurancecompany.component.ts" />
+    <None Remove="ClientApp\app\components\addlicensetype\addlicensetype.component.ts" />
+    <None Remove="ClientApp\app\components\addmodelversion\addmodelversion.component.ts" />
+    <None Remove="ClientApp\app\components\addmodel\addmodel.component.ts" />
+    <None Remove="ClientApp\app\components\addofficetype\addofficetype.component.ts" />
+    <None Remove="ClientApp\app\components\addoffice\addoffice.component.ts" />
+    <None Remove="ClientApp\app\components\addpainttype\addpainttype.component.ts" />
     <None Remove="ClientApp\app\components\addreceipt\addreceipt.component.ts" />
+    <None Remove="ClientApp\app\components\addsurveyorfeeschedules\addsurveyorfeeschedules.component.ts" />
+    <None Remove="ClientApp\app\components\addusers\adduser.component.ts" />
+    <None Remove="ClientApp\app\components\addvehiclemake\addvehiclemake.component.ts" />
+    <None Remove="ClientApp\app\components\addworkshop\addworkshop.component.ts" />
     <None Remove="ClientApp\app\components\adminnavmenu\adminnavmenu.component.ts" />
-    <None Remove="ClientApp\app\components\AssessmentType\assessmenttype.component.ts" />
+    <None Remove="ClientApp\app\components\assessmenttype\assessmenttype.component.ts" />
     <None Remove="ClientApp\app\components\assessment\addassessment.component.ts" />
     <None Remove="ClientApp\app\components\assessment\assessment.component.ts" />
     <None Remove="ClientApp\app\components\BankAccount\bankaccount.component.ts" />
@@ -36,8 +49,18 @@
     <None Remove="ClientApp\app\components\insurancecompany\insurancecompany.component.ts" />
     <None Remove="ClientApp\app\components\Invoice\addinvoice.component.ts" />
     <None Remove="ClientApp\app\components\Invoice\Invoice.component.ts" />
+    <None Remove="ClientApp\app\components\licensetype\licensetype.component.ts" />
     <None Remove="ClientApp\app\components\login\login.component.ts" />
+    <None Remove="ClientApp\app\components\modelversion\modelversion.component.ts" />
+    <None Remove="ClientApp\app\components\model\model.component.ts" />
+    <None Remove="ClientApp\app\components\officetype\officetype.component.ts" />
+    <None Remove="ClientApp\app\components\office\office.component.ts" />
+    <None Remove="ClientApp\app\components\painttype\painttype.component.ts" />
     <None Remove="ClientApp\app\components\receipts\receipts.component.ts" />
+    <None Remove="ClientApp\app\components\surveyorfeeschedules\surveyorfeeschedules.component.ts" />
+    <None Remove="ClientApp\app\components\users\users.component.ts" />
+    <None Remove="ClientApp\app\components\vehiclemake\vehiclemake.component.ts" />
+    <None Remove="ClientApp\app\components\workshop\workshop.component.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,11 +68,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\components\addassessmenttype\addassessmenttype.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addbankaccount\addbankaccount.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\addemployee\addemployee.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\addassessment\addassessment.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addinsurancecompany\addinsurancecompany.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addlicensetype\addlicensetype.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addmodelversion\addmodelversion.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addmodel\addmodel.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addofficetype\addofficetype.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addoffice\addoffice.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addpainttype\addpainttype.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\addreceipt\addreceipt.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addsurveyorfeeschedules\addsurveyorfeeschedules.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addusers\adduser.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addvehiclemake\addvehiclemake.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\addworkshop\addworkshop.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\adminnavmenu\adminnavmenu.component.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\AssessmentType\assessmenttype.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\assessmenttype\assessmenttype.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\assessment\assessment.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\BankAccount\bankaccount.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\htmlpage\htmlpage.component.ts" />
@@ -57,8 +93,18 @@
     <TypeScriptCompile Include="ClientApp\app\components\addinvoice\addinvoice.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\insurancecompany\insurancecompany.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\Invoice\Invoice.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\licensetype\licensetype.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\login\login.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\modelversion\modelversion.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\model\model.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\officetype\officetype.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\office\office.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\painttype\painttype.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\receipts\receipts.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\surveyorfeeschedules\surveyorfeeschedules.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\users\users.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\vehiclemake\vehiclemake.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\workshop\workshop.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\Services\empservice.service.ts" />
   </ItemGroup>
 
