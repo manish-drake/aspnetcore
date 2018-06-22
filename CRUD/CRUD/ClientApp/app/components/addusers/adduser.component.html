@@ -1,0 +1,67 @@
+﻿<div class="col-md-offset-3 col-md-9 col-sm-offset-3 col-sm-9" style="padding-left:0px">
+    <div class="row" style="position:static">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:18px;margin-bottom:40px">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span> User
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a style="background:white" [routerLink]="['/login']">Login</a></li>
+                        <li class="divider"></li>
+                        <li><a style="background:white" href="login">Help</a></li>
+                        <li><a style="background:white" href="#">Settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" style="background-color:#e9edf2;">
+        <h3 style="font-size: 24px;font-weight: 300;color: #74767d;">Create Admin</h3>
+    </div>
+    <form class="needs-validation" style="color:black;font-size:12px;margin-top:20px" novalidate>
+        <div class="form-row">
+            <div class="col-md-12 mb-3">
+                <label for="validationCustom01">User Name</label>
+                <input type="text" class="form-control" id="validationCustom01">
+                <!--<div class="valid-feedback">
+                    Looks good!
+                </div>-->
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-12 mb-3">
+                <label for="validationCustom01">Email Address</label>
+                <input type="text" class="form-control" id="validationCustom01">
+                <!--<div class="valid-feedback">
+                    Looks good!
+                </div>-->
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-12 mb-3">
+                <label for="validationCustom01">Password</label>
+                <input type="text" class="form-control" id="validationCustom01">
+                <!--<div class="valid-feedback">
+                    Looks good!
+                </div>-->
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-12 mb-3">
+                <label for="validationCustom01">Confirm Password</label>
+                <input type="text" class="form-control" id="validationCustom01">
+                <!--<div class="valid-feedback">
+                    Looks good!
+                </div>-->
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-12" style="margin-top:30px;margin-bottom:30px">
+                <button class="col-md-5 btn btn-success" type="submit">Save</button>
+                <a (click)="goBack()" class="btn btn-default col-md-offset-2 col-md-5">Back</a>
+            </div>
+        </div>
+    </form>
+</div>

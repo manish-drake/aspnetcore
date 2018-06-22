@@ -1,0 +1,95 @@
+﻿<!--<p *ngIf="!empList"><em>Loading...</em></p>-->
+<style>
+    th, td {
+        text-align: center;
+        padding: 8px;
+    }
+</style>
+
+<div class="col-sm-offset-3 col-sm-9">
+    <div class="row">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:18px;margin-bottom:20px">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span> User
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a style="background:white" href="login">Login</a></li>
+                        <li class="divider"></li>
+                        <li><a style="background:white" href="login">Help</a></li>
+                        <li><a style="background:white" href="#">Settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <h3 style="font-size: 24px;font-weight: 300;color: #74767d;">Receipts</h3>
+    </div>
+
+    <div class="row" style="margin-top:39px;">
+        <p>
+            <a class="btn btn-success btn-sm" style="border-color:#22BAA0; background-color:#22BAA0;" [routerLink]="['/menu/receipts/createreceipt']"><span class="glyphicon glyphicon-plus"></span> Add</a>
+        </p>
+        <div style="overflow-x:auto">
+            <table class='table' style="color:black;font-size:12px">
+                <thead>
+                    <tr>
+                        <th nowrap>Slip Date</th>
+                        <th nowrap>Cheque Date</th>
+                        <th nowrap>Bank</th>
+                        <th nowrap>Slip No.</th>
+                        <th nowrap>Cheque No.</th>
+                        <th nowrap>Total Reciept</th>
+                        <th nowrap>Cheque Amount</th>
+                        <th nowrap>Bill ID</th>
+                        <th nowrap>Assessment ID</th>
+                        <th nowrap>TDS</th>
+                        <th nowrap>NET Reciept</th>
+                        <th nowrap>Remarks</th>
+                        <th nowrap>Assessment ID</th>
+                        <th nowrap>TDS</th>
+                        <th nowrap>NET Reciept</th>
+                        <th nowrap>TDS Rate</th>
+                        <th nowrap>Total Fee Paid</th>
+                        <th nowrap>Assessment Key</th>
+                        <th>Subject</th>
+                        <th>Insured</th>
+                        <th nowrap>Claim No.</th>
+                        <th nowrap>Office Code</th>
+                        <th nowrap>Bill No.</th>
+                        <th nowrap>CGST Rate</th>
+                        <th>CGST</th>
+                        <th nowrap>UGST Rate</th>
+                        <th>UGST</th>
+                        <th nowrap>IGST Rate</th>
+                        <th>IGST</th>
+                        <th nowrap>State Code</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                        <td>
+                            <!--<a [routerLink]="['/employee/edit/', emp.employeeId]">Edit</a> |
+                            <a [routerLink]="" (click)="delete(emp.employeeId)">Delete</a>-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</div>
