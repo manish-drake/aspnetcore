@@ -19,7 +19,7 @@ namespace CRUD.Models
 
         public string Address { get; set; }
 
-      //  public int StateId { get; set; }
+        //  public int StateId { get; set; }
 
         public string StateName { get; set; }
 

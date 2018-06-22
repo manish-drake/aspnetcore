@@ -42,6 +42,8 @@ import { addsurveyorfeeschedules } from './components/addsurveyorfeeschedules/ad
 import { surveyorfeeschedules } from './components/surveyorfeeschedules/surveyorfeeschedules.component';
 import { addoffice } from './components/addoffice/addoffice.component';
 import { office } from './components/office/office.component';
+import { users } from './components/users/users.component';
+import { adduser } from './components/addusers/adduser.component';
 
 
 
@@ -84,7 +86,9 @@ import { office } from './components/office/office.component';
         surveyorfeeschedules,
         addsurveyorfeeschedules,
         addoffice,
-        office
+        office,
+        users,
+        adduser
     ],
     imports: [
         CommonModule,
@@ -128,6 +132,8 @@ import { office } from './components/office/office.component';
             { path: 'admin/surveyorfeeschedules/createsurveyorfeeschedules', component: addsurveyorfeeschedules },
             { path: 'admin/office', component: office },
             { path: 'admin/office/createoffice', component: addoffice },
+            { path: 'admin/user', component: users },
+            { path: 'admin/user/createuser', component: adduser },
             { path: 'login', component: login },
             { path: '**', redirectTo: 'login' },          
         ])
