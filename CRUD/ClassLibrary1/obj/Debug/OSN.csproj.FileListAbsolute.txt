@@ -1,0 +1,4 @@
+D:\git\aspnetcore\CRUD\ClassLibrary1\obj\Debug\OSN.csprojAssemblyReference.cache
+D:\git\aspnetcore\CRUD\ClassLibrary1\obj\Debug\OSN.Generic.EventLogHelper.resources
+D:\git\aspnetcore\CRUD\ClassLibrary1\obj\Debug\OSN.csproj.GenerateResource.cache
+D:\git\aspnetcore\CRUD\ClassLibrary1\obj\Debug\OSN.csproj.CoreCompileInputs.cache

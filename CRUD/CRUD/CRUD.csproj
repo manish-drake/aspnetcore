@@ -47,6 +47,7 @@
     <None Remove="ClientApp\app\components\assessment\assessment.component.ts" />
     <None Remove="ClientApp\app\components\BankAccount\bankaccount.component.ts" />
     <None Remove="ClientApp\app\components\fetchemployee\fetchemployee.component.ts" />
+    <None Remove="ClientApp\app\components\forgotpassword\forgotpassword.component.ts" />
     <None Remove="ClientApp\app\components\insurancecompany\insurancecompany.component.ts" />
     <None Remove="ClientApp\app\components\Invoice\addinvoice.component.ts" />
     <None Remove="ClientApp\app\components\Invoice\Invoice.component.ts" />
@@ -89,6 +90,7 @@
     <TypeScriptCompile Include="ClientApp\app\components\assessmenttype\assessmenttype.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\assessment\assessment.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\BankAccount\bankaccount.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\forgotpassword\forgotpassword.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\htmlpage\htmlpage.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\fetchemployee\fetchemployee.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\addinvoice\addinvoice.component.ts" />

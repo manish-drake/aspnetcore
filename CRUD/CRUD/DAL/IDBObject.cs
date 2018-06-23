@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace CRUD.DAL
 {
-
     public enum enumDBTransaction
     {
         spSelect = 0,
@@ -20,7 +19,7 @@ namespace CRUD.DAL
     {
         string Connection { get; }
 
-       // Identity Identity { get; }
+        //Identity Identity { get; }
 
         String Transaction(enumDBTransaction argTransactionType);
 

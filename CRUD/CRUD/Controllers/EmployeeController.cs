@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using CRUD.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -52,7 +54,6 @@ namespace CRUD.Controllers
             var data = EmployeeDataAccessLayer.DeleteEmployee(empId);
             return data;
         }
-
 
         [HttpGet]
         [Route("api/Employee/GetStateList")]

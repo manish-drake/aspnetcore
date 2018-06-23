@@ -44,6 +44,8 @@ import { addoffice } from './components/addoffice/addoffice.component';
 import { office } from './components/office/office.component';
 import { users } from './components/users/users.component';
 import { adduser } from './components/addusers/adduser.component';
+import { forgotpassword } from './components/forgotpassword/forgotpassword.component';
+
 
 
 
@@ -88,7 +90,8 @@ import { adduser } from './components/addusers/adduser.component';
         addoffice,
         office,
         users,
-        adduser
+        adduser,
+        forgotpassword
     ],
     imports: [
         CommonModule,
@@ -134,6 +137,7 @@ import { adduser } from './components/addusers/adduser.component';
             { path: 'admin/office/createoffice', component: addoffice },
             { path: 'admin/user', component: users },
             { path: 'admin/user/createuser', component: adduser },
+            { path: 'forgotpassword', component: forgotpassword },
             { path: 'login', component: login },
             { path: '**', redirectTo: 'login' },          
         ])

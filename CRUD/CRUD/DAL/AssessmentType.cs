@@ -7,9 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.ApplicationBlocks.Data;
 
+
 namespace CRUD.DAL
 {
-    public class AssessmentType 
+    public class AssessmentType
     {
        // OSN.Generic.Identity mIdentity;
         private String mConnection;
@@ -29,7 +30,6 @@ namespace CRUD.DAL
             {
                 mAssessmentTypeId = (System.Int32)dr["AssessmentTypeId"];
                 mDefault = (System.String)dr["AssessmentType"];
-
             }
             else
             {
@@ -150,21 +150,21 @@ namespace CRUD.DAL
         {
             return this.Default;
         }
-        //public string Attributes(string argName)
-        //{
-        //    switch (argName)
-        //    {
-        //        case "AssessmentTypeId":
-        //            return this.AssessmentTypeId.ToString();
-        //            break;
-        //        case "AssessmentType":
-        //            return this.Default.ToString();
-        //            break;
+        public string Attributes(string argName)
+        {
+            switch (argName)
+            {
+                case "AssessmentTypeId":
+                    return this.AssessmentTypeId.ToString();
+                    break;
+                case "AssessmentType":
+                    return this.Default.ToString();
+                    break;
 
-        //        default:
-        //            return null;
-        //            break;
-        //    }
-        //}
+                default:
+                    return null;
+                    break;
+            }
+        }
     }
 }
