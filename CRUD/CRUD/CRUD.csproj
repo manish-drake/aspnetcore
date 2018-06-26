@@ -70,6 +70,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\OSN.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\components\addassessmenttype\addassessmenttype.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\addbankaccount\addbankaccount.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\addemployee\addemployee.component.ts" />

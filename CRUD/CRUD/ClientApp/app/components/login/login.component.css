@@ -3,16 +3,20 @@
     background: #3598dc;
 }
 
-.form-control {
+.form-gap {
+    padding-top: 70px;
+}
+
+
+/*.form-control {
     min-height: 41px;
     background: #f2f2f2;
     box-shadow: none !important;
     border: transparent;
+}*/
+.form-control:focus {
+    background: #e2e2e2;
 }
-
-    .form-control:focus {
-        background: #e2e2e2;
-    }
 
 .form-control, .btn {
     border-radius: 2px;

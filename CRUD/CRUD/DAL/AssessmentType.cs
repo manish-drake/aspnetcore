@@ -12,7 +12,7 @@ namespace CRUD.DAL
 {
     public class AssessmentType
     {
-       // OSN.Generic.Identity mIdentity;
+        OSN.Generic.Identity mIdentity;
         private String mConnection;
         private System.Int32 mAssessmentTypeId;
         private System.String mDefault;
@@ -72,17 +72,17 @@ namespace CRUD.DAL
             get { return mConnection; }
         }
 
-        //public OSN.Generic.Identity Identity
-        //{
-        //    get
-        //    {
-        //        if (mIdentity == null)
-        //        {
-        //            mIdentity = new OSN.Generic.Identity(Connection, "AssessmentType", "AssessmentTypeId");
-        //        }
-        //        return mIdentity;
-        //    }
-        //}
+        public OSN.Generic.Identity Identity
+        {
+            get
+            {
+                if (mIdentity == null)
+                {
+                    mIdentity = new OSN.Generic.Identity(Connection, "AssessmentType", "AssessmentTypeId");
+                }
+                return mIdentity;
+            }
+        }
 
         public string Transaction(enumDBTransaction argTransactionType)
         {
@@ -91,7 +91,7 @@ namespace CRUD.DAL
                 enumDBTransaction pTransactionType = argTransactionType;
                 if (pTransactionType == enumDBTransaction.spAdd)
                 {
-                   // mAssessmentTypeId = this.Identity.New();
+                    mAssessmentTypeId = this.Identity.New();
                 }
                 SqlParameter[] parrSP = new SqlParameter[3];
 

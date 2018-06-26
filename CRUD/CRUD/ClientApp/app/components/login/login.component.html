@@ -4,14 +4,21 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+<div class="form-gap"></div>
 <div class="login-form">
     <form method="post">
         <h2 class="text-center">Login</h2>
-        <div class="form-group has-error">
-            <input type="text" class="form-control" name="username" placeholder="Username" >
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user color-blue"></i></span>
+                <input id="email" name="email" placeholder="username" class="form-control" type="email">
+            </div>
         </div>
         <div class="form-group">
-            <input type="password" class="form-control" name="password" placeholder="Password">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock color-blue"></i></span>
+                <input id="email" name="email" placeholder="password" class="form-control" type="email">
+            </div>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary btn-lg btn-block" (click)="validation()">Sign in</button>
