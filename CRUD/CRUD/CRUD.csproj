@@ -71,6 +71,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\OSN.csproj" />
+    <ProjectReference Include="..\Environment\Environment.csproj" />
   </ItemGroup>
 
   <ItemGroup>

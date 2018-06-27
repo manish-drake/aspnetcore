@@ -1,0 +1,8 @@
+D:\git\aspnetcore\CRUD\Environment\bin\Debug\Environment.dll
+D:\git\aspnetcore\CRUD\Environment\bin\Debug\Environment.pdb
+D:\git\aspnetcore\CRUD\Environment\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.csprojAssemblyReference.cache
+D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.csproj.CoreCompileInputs.cache
+D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.csproj.CopyComplete
+D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.dll
+D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.pdb
