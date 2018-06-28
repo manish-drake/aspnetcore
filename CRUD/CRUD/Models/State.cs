@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CRUD.Models
+namespace Communique.Models
 {
     public partial class State
     {

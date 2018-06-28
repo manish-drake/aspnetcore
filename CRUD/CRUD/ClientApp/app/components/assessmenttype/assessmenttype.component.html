@@ -1,6 +1,6 @@
 ﻿<style>
     th, td {
-        text-align: center;
+        text-align: left;
         padding: 8px;
     }
 </style>
@@ -33,20 +33,21 @@
             <a class="btn btn-success btn-sm" style="border-color:#22BAA0; background-color:#22BAA0;" [routerLink]="['/admin/assessmenttype/createassessmenttype']"><span class="glyphicon glyphicon-plus"></span> Add</a>
         </p>
         <div style="overflow-x:auto;">
-            <table class='table' style="color:black;font-size:12px">
+            <p *ngIf="!assessmentList"><em>Loading...</em></p>
+            <table  class='table' *ngIf="assessmentList" style="color:black;font-size:12px">
                 <thead>
                     <tr>
                         <th nowrap>Assessment Type ID.</th>
-                        <th>Assessment Type Name</th>
+                        <th nowrap>Assessment Type Name</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td></td>
-                        <td></td>
+                    <tr *ngFor="let assessment of assessmentList">
+                        <td>{{ assessment.assessmentTypeId }}</td>
+                        <td>{{ assessment.assessmentType }}</td>
                         <td>
-                            <!--<a [routerLink]="['/employee/edit/', emp.employeeId]">Edit</a> |
-                            <a [routerLink]="" (click)="delete(emp.employeeId)">Delete</a>-->
+                            <a [routerLink]="['/admin/assessmenttype/edit/', assessment.assessmentTypeId]">Edit</a> |
+                            <a [routerLink]="" (click)="delete(assessment.assessmentTypeId)">Delete</a>
                         </td>
                     </tr>
                 </tbody>

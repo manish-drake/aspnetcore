@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace CRUD
+namespace Communique
 {
     public class Program
     {
@@ -21,5 +21,5 @@ namespace CRUD
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
-    }
+    }    
 }

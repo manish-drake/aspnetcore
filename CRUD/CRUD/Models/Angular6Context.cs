@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace CRUD.Models
+namespace Communique.Models
 {
     public partial class Angular6Context : DbContext
     {

@@ -5,12 +5,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
-using CRUD.Models;
+using Communique.Models;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace CRUD.Controllers
+namespace Communique.Controllers
 {
     public class EmployeeController : Controller
     {

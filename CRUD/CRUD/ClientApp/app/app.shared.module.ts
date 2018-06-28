@@ -45,6 +45,7 @@ import { office } from './components/office/office.component';
 import { users } from './components/users/users.component';
 import { adduser } from './components/addusers/adduser.component';
 import { forgotpassword } from './components/forgotpassword/forgotpassword.component';
+import { AssessmentTypeService } from './Services/assessmenttype.service';
 
 
 
@@ -112,6 +113,7 @@ import { forgotpassword } from './components/forgotpassword/forgotpassword.compo
             { path: 'menu/receipts', component: receipts },
             { path: 'menu/receipts/createreceipt', component: addreceipt },
             { path: 'admin/assessmenttype', component: assessmenttype },
+            { path: 'admin/assessmenttype/:id', component: addassessmenttype },
             { path: 'admin/assessmenttype/createassessmenttype', component: addassessmenttype },
             { path: 'admin/insurancecompany', component: insurancecompany },
             { path: 'admin/insurancecompany/createinsurancecompany', component: addinsurancecompany },
@@ -142,7 +144,7 @@ import { forgotpassword } from './components/forgotpassword/forgotpassword.compo
             { path: '**', redirectTo: 'login' },          
         ])
     ],
-    providers: [EmployeeService]
+    providers: [EmployeeService, AssessmentTypeService],
 })
 export class AppModuleShared {
 } 
