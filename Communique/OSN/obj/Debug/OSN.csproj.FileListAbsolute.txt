@@ -1,0 +1,10 @@
+D:\git\aspnetcore\Communique\OSN\bin\Debug\OSN.dll
+D:\git\aspnetcore\Communique\OSN\bin\Debug\OSN.pdb
+D:\git\aspnetcore\Communique\OSN\obj\Debug\OSN.csprojAssemblyReference.cache
+D:\git\aspnetcore\Communique\OSN\obj\Debug\OSN.csproj.CoreCompileInputs.cache
+D:\git\aspnetcore\Communique\OSN\obj\Debug\OSN.dll
+D:\git\aspnetcore\Communique\OSN\obj\Debug\OSN.pdb
+D:\git\aspnetcore\Communique\OSN\obj\Debug\OSN.Generic.EventLogHelper.resources
+D:\git\aspnetcore\Communique\OSN\obj\Debug\OSN.csproj.GenerateResource.cache
+D:\git\aspnetcore\Communique\OSN\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\git\aspnetcore\Communique\OSN\obj\Debug\OSN.csproj.CopyComplete

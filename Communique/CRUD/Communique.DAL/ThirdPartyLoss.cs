@@ -15,8 +15,6 @@ namespace Communique.DAL
         private System.Int32 mThirdPartyLossId;
         private System.String mDefault;
 
-
-
         public ThirdPartyLoss(String argConnection)
         {
             mConnection = argConnection;

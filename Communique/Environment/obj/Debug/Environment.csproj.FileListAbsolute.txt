@@ -6,3 +6,10 @@ D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.csproj.CoreCompileInput
 D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.csproj.CopyComplete
 D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.dll
 D:\git\aspnetcore\CRUD\Environment\obj\Debug\Environment.pdb
+D:\git\aspnetcore\Communique\Environment\bin\Debug\Environment.dll
+D:\git\aspnetcore\Communique\Environment\bin\Debug\Environment.pdb
+D:\git\aspnetcore\Communique\Environment\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\git\aspnetcore\Communique\Environment\obj\Debug\Environment.csproj.CoreCompileInputs.cache
+D:\git\aspnetcore\Communique\Environment\obj\Debug\Environment.csproj.CopyComplete
+D:\git\aspnetcore\Communique\Environment\obj\Debug\Environment.dll
+D:\git\aspnetcore\Communique\Environment\obj\Debug\Environment.pdb

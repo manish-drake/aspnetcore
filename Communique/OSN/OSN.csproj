@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3E182C79-E7C9-4A17-85DC-EB4B00B83CB2}</ProjectGuid>
+    <ProjectGuid>{6B338919-F9BE-4A5A-8A31-56D29E70F02F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OSN</RootNamespace>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="ColumnValuePair.cs" />
     <Compile Include="EventLogHelper.cs">
       <SubType>Component</SubType>
